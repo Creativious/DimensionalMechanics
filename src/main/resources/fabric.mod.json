@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "dimensionalmechanics",
+  "version": "${version}",
+  "name": "Dimensional Mechanics",
+  "description": "Adds dimensional based mechanics",
+  "authors": [
+    "Creativious"
+  ],
+  "contact": {
+    "website": "https://www.creativious.net"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.creativious.dimensionalmechanics.client.DimensionalMechanicsClient"
+    ],
+    "main": [
+      "net.creativious.dimensionalmechanics.DimensionalMechanics"
+    ]
+  },
+  "mixins": [
+    "dimensionalmechanics.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
