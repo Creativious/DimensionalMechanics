@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BII",
+    "BII"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:diamonds"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "dimensionalmechanics:diamond_hammer_head",
+    "count": 1
+  }
+}

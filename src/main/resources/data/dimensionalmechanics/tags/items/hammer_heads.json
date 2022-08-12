@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dimensionalmechanics:diamond_hammer_head",
+    "dimensionalmechanics:iron_hammer_head",
+    "dimensionalmechanics:netherite_hammer_head"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "dimensionalmechanics:diamond_hammer_head"
+  },
+  "addition": {
+    "tag": "c:netherite_ingots"
+  },
+  "result": {
+    "item": "dimensionalmechanics:netherite_hammer_head",
+    "count": 1
+  }
+}

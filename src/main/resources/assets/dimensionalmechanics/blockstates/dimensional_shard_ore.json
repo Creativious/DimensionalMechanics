@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      {"model": "dimensionalmechanics:block/dimensional_shard_ore"}
+    ]
+  }
+}

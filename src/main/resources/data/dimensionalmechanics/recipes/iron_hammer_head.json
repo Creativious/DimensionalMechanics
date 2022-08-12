@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BII",
+    "BII"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:iron_ingots"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "dimensionalmechanics:iron_hammer_head",
+    "count": 1
+  }
+}
