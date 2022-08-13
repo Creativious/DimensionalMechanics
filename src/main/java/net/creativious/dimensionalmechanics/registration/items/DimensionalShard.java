@@ -7,6 +7,6 @@ import net.minecraft.item.ItemGroup;
 
 public class DimensionalShard extends Item {
     public DimensionalShard() {
-        super(new FabricItemSettings().group(ItemGroup.MISC));
+        super(new FabricItemSettings().group(ItemGroup.MISC).fireproof());
     }
 }

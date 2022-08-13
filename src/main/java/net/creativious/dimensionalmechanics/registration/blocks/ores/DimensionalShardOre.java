@@ -20,7 +20,7 @@ import net.minecraft.util.math.intprovider.IntProvider;
 public class DimensionalShardOre extends ModBlock{
 
     public DimensionalShardOre() {
-        super(FabricBlockSettings.of(Material.STONE).requiresTool().hardness(10).luminance(8).drops(new Identifier("dimensionalmechanics:blocks/block_drops/dimensional_shard_ore")), new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+        super(FabricBlockSettings.of(Material.STONE).requiresTool().hardness(10).luminance(8).drops(new Identifier("dimensionalmechanics:blocks/block_drops/dimensional_shard_ore")), new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS).fireproof());
 
     }
 

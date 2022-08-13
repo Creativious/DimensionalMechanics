@@ -3,6 +3,9 @@ package net.creativious.dimensionalmechanics.registration;
 import net.creativious.dimensionalmechanics.DimensionalMechanics;
 import net.creativious.dimensionalmechanics.registration.blocks.ores.DimensionalShardOre;
 import net.creativious.dimensionalmechanics.registration.items.DimensionalShard;
+import net.creativious.dimensionalmechanics.registration.items.hammers.DiamondHammer;
+import net.creativious.dimensionalmechanics.registration.items.hammers.IronHammer;
+import net.creativious.dimensionalmechanics.registration.items.hammers.NetheriteHammer;
 import net.creativious.dimensionalmechanics.registration.items.hammers.hammer_heads.DiamondHammerHead;
 import net.creativious.dimensionalmechanics.registration.items.hammers.hammer_heads.IronHammerHead;
 import net.creativious.dimensionalmechanics.registration.items.hammers.hammer_heads.NetheriteHammerHead;
@@ -32,10 +35,15 @@ public class RegistrationManager {
     public static final Item IRON_HAMMER_HEAD = ITEMS.put(new Identifier(DimensionalMechanics.MOD_ID, "iron_hammer_head"), new IronHammerHead());
     public static final Item DIAMOND_HAMMER_HEAD = ITEMS.put(new Identifier(DimensionalMechanics.MOD_ID, "diamond_hammer_head"), new DiamondHammerHead());
     public static final Item NETHERITE_HAMMER_HEAD = ITEMS.put(new Identifier(DimensionalMechanics.MOD_ID, "netherite_hammer_head"), new NetheriteHammerHead());
+    public static final Item NETHERITE_HAMMER = ITEMS.put(new Identifier(DimensionalMechanics.MOD_ID, "netherite_hammer"), new NetheriteHammer());
+    public static final Item DIAMOND_HAMMER = ITEMS.put(new Identifier(DimensionalMechanics.MOD_ID, "diamond_hammer"), new DiamondHammer());
+    public static final Item IRON_HAMMER = ITEMS.put(new Identifier(DimensionalMechanics.MOD_ID, "iron_hammer"), new IronHammer());
 
 //    public static final ModItemGroup DIMENSIONAL_MECHANICS_MATERIALS = new ModItemGroup(new Identifier(DimensionalMechanics.MOD_ID, "dimensional_mechanics_materials"));
 //
 //    public static final ModItemGroup DIMENSIONAL_MECHANICS_TOOLS = new ModItemGroup(new Identifier(DimensionalMechanics.MOD_ID, "dimensional_mechanics_tools"));
+
+    public static final TagKey<Block> LEVEL_4_MINING_TAG = TagKey.of(Registry.BLOCK_KEY, new Identifier("fabric", "needs_tool_level_4"));
     public static void init() {
 //        ((ItemGroupExtensions) ItemGroup.BUILDING_BLOCKS).fabric_expandArray();
         handleRegistration();

@@ -8,6 +8,6 @@ import net.minecraft.item.ItemGroup;
 public class NetheriteHammerHead extends Item {
     public NetheriteHammerHead() {
         // 11330 * 1.3x = 14729 for the head
-        super(new FabricItemSettings());
+        super(new FabricItemSettings().group(ItemGroup.MISC).fireproof());
     }
 }

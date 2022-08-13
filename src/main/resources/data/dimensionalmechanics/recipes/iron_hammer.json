@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  H",
+    " S",
+    "S"
+  ],
+  "key": {
+    "H": {
+      "item": "dimensionalmechanics:iron_hammer_head"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dimensionalmechanics:iron_hammer"
+  }
+}
